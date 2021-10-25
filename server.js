@@ -21,8 +21,8 @@ app.get("/sent", (req, res) => {
 app.post("/sendemail", (req, res) => {
   const { name, surname, email } = req.body;
 
-  const from = "thefullstackjunkie@gmail.com";
-  const to = "lloydjvrensburg@gmail.com";
+  const from = "eca.ansible@ibm.com";
+  const to = "krishna.gopal.singh@ibm.com";
 
   const subject = "New Contact Request";
 
